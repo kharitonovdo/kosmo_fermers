@@ -42,10 +42,12 @@
           
         </thead>
         <tbody>
-            
-            <th scope="row">Chris</th>
-            <td>HTML tables</td>
-            <td>22</td>
+           
+            <th scope="row"> {% for i in numbers %}{{ i }}  {% endfor %}</th>
+          
+            <td>Входные данные</td>
+            <td>{{ count }}</td>
+
           </tr>
         </tbody>
         <tfoot>
