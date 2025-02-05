@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify, make_response, flash
-
+from flask import Flask, render_template, request
+import dano
 
 
 app = Flask(__name__)
@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', date=dano.date, )
 
 
 if __name__ == '__main__':

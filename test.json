@@ -1,0 +1,46 @@
+{
+    "message": {
+        "date": {
+            "data": "<timestamp:int>",
+            "description": "<description:string>"
+        },
+        "rooms_count": {
+            "data": "<rooms_count:int>",
+            "description": "<description:string>"
+        },
+        "windows_for_room": {
+            "data": [
+                        4,
+                        5,
+                        ],
+            "description": "<description:string>"
+            },
+        "windows": {
+            "data": {
+                "floor_1": [
+                        "True",
+                        "Faulse",
+                        "True"
+                        ],
+                        "floor_2": [
+                        "True",
+                        "Faulse",
+                        "True"
+                        ],
+                        "floor_3": [
+                        "True",
+                        "Faulse",
+                        
+                        "True"
+                        ],
+                        "floor_4": [
+                        "True",
+                        "Faulse",
+                        
+                        "True" ]
+                           
+                    },
+        "description": "<description:string>"
+        }   
+    }
+}
